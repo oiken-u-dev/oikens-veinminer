@@ -11,4 +11,4 @@ I made this because I couldn't find any vein miners that I liked on NeoForge.
 if this mod doesn't work with an ore from another mod, then just open an issue in the issues tab and I'll (hopefully) fix it.
 enjoy!
 
-also all the comments in the source code are by claude, I didn't really bother with them.
+also most of the comments in the source code are by claude, I didn't really bother with them.

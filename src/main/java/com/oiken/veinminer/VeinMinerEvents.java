@@ -64,7 +64,11 @@ public class VeinMinerEvents {
         BlockState originState = level.getBlockState(origin);
 
         // Determine mining mode
-        boolean isOre = originState.is(Tags.Blocks.ORES);
+        boolean isOre = originState.is(Tags.Blocks.ORES)
+        || originState.is(net.minecraft.core.registries.BuiltInRegistries.BLOCK
+            .get(net.minecraft.resources.ResourceLocation.parse("expandeddelight:salt_ore")))
+        || originState.is(net.minecraft.core.registries.BuiltInRegistries.BLOCK
+            .get(net.minecraft.resources.ResourceLocation.parse("expandeddelight:deepslate_salt_ore")));
         boolean isLog = originState.is(BlockTags.LOGS);
 
         if (!isOre && !isLog) return;

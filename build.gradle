@@ -174,3 +174,7 @@ idea {
         downloadJavadoc = true
     }
 }
+
+compileJava {
+    options.compilerArgs << '-Xlint:deprecation'
+}

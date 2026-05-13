@@ -117,7 +117,7 @@ public class VeinMinerEvents {
         }
 
         // Play the break sound exactly once, at the origin block position
-        var sound = originState.getSoundType();
+        var sound = originState.getSoundType(level, origin, player);
         level.playSound(null, origin, sound.getBreakSound(), SoundSource.BLOCKS,
                 sound.getVolume(), sound.getPitch());
     }

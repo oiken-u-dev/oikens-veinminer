@@ -10,7 +10,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.InputEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
 
-@EventBusSubscriber(modid = VeinMiner.MODID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
+@EventBusSubscriber(modid = VeinMiner.MODID, value = Dist.CLIENT)
 public class ClientEvents {
 
     /** Mirrors the server-side toggle so we can show the right HUD message instantly. */

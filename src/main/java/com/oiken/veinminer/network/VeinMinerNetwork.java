@@ -2,12 +2,12 @@ package com.oiken.veinminer.network;
 
 import com.oiken.veinminer.VeinMinerEvents;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
-import net.neoforged.neoforge.network.registration.IPayloadRegistrar;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 
 public class VeinMinerNetwork {
 
     public static void register(RegisterPayloadHandlersEvent event) {
-        IPayloadRegistrar registrar = event.registrar(
+        PayloadRegistrar registrar = event.registrar(
                 com.oiken.veinminer.VeinMiner.MODID
         );
 

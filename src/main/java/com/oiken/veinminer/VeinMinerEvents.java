@@ -18,7 +18,7 @@ import net.neoforged.neoforge.event.level.BlockEvent;
 
 import java.util.*;
 
-@EventBusSubscriber(modid = VeinMiner.MODID, bus = EventBusSubscriber.Bus.GAME)
+@EventBusSubscriber(modid = VeinMiner.MODID)
 public class VeinMinerEvents {
 
     // -----------------------------------------------------------------------

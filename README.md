@@ -11,4 +11,4 @@ I made this because I couldn't find any vein miners that I liked on NeoForge.
 if this mod doesn't work with an ore from another mod, then just open an issue in the issues tab and I'll (hopefully) fix it.
 enjoy!
 
-also, AI disclosure, I did use it in the process of making this mod, but it's ***NOT*** vibecoded, I simply used it as a helper tool.
+also, AI disclosure, I did use it in the process of making this mod, but this mod is ***NOT*** vibecoded, I simply used it as a helper tool.
